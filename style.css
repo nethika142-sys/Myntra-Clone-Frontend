@@ -1,0 +1,359 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: aliceblue;
+    padding: 30px 40px;
+}
+.logo img{
+    width: 50px;
+}
+.menu{
+    display: flex;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    margin: 0 10px;
+    font-size: 18px;
+    padding: 10px;
+}
+.dropdown{
+    position: relative;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    min-width: 200px;
+    padding: 10px 20px;
+    background-color: lightblue;
+        
+}
+.dropdown-content h4 {
+  color: maroon;
+  font-size: 14px;
+ 
+}
+.dropdown-content a{
+    display: block;
+    padding: 8px 20px;
+    color: brown;
+    
+
+}
+.dropdown-content a:hover{
+    background-color: grey;
+    color: black;
+   
+} 
+ .dropdown:hover .dropdown-content{
+     display: block;
+}
+.search input{
+    padding: 20px 25px;
+    border: 1px gray;
+    width: 250px;
+
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icon-item{
+    text-decoration: none;
+    padding: 2px 8px;
+    color: black;
+}
+
+.sticky-offer{
+    position: fixed;
+    top: 50%;
+    right: 0;
+    background-color: gray;
+    color: white;
+    padding: 10px 15px;
+    font-size: 20px;
+    cursor: pointer;
+    transform-origin: right center;
+    transform: translate(-20%) rotate(-90deg);
+    line-height: 20px;
+    
+    
+}
+.flatoff-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(219, 60, 113);
+    border: 18px ridge rgb(107, 24, 107);
+    border-width: 10px;
+    padding: 30px;
+    margin: 40px;
+    margin-left: 120px;
+    margin-bottom: 10px;
+    height: 50px;
+    width: 80%;   
+}
+.flatoff-content{
+    
+    font-size: 100px;
+    color: white;
+    margin-left: 100px;
+    font-style:oblique;
+    
+}
+.flatoff-contents{
+    flex:1;
+    color: white;
+    text-align: right;
+    font-size: 30px;
+    margin-right: 40px;
+    font-style: italic;
+}
+.payday-container{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(88, 47, 238, 0.863);
+    height: 400px;
+    margin-left: 70px;
+    margin-right: 50px;
+    
+}
+.payday-content{
+    display: flex;
+    flex-direction: column;
+    font-size: 70px;
+    color:white;
+    font-style:italic;
+    margin-left: 20px;
+    margin-top: 30px;
+}
+.crazydeals-title{
+    text-align: center;
+    color: orangered;
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+.subheading-container{
+    text-align: center;
+    
+    
+}
+.subheading{
+    display: inline-block;
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 30px;
+    border: 2px solid gray;
+    background-color: blueviolet;
+    border-radius: 10px;    
+    color: white;  
+    padding: 10px 20px;  
+}
+.slider-container{
+    display: flex;
+    overflow-x: scroll;
+    white-space: nowrap;   
+}
+.slider-container img{
+    display: block;
+    width: 100%;
+    height: 600px;
+}
+.category-title{
+    text-align: center;
+    color: orangered;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+.category-grid-container{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    justify-content: space-between;
+    gap: 40px;
+    padding: 10px;
+    margin: 50px;
+}
+.category-card{
+   border: none;
+   background-color: pink;
+   padding: 10px;
+   width: 100%;
+   height: 210px;
+   overflow: hidden;
+   text-decoration: none;
+   color: black;
+}
+.category-card img{
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+    
+
+}
+.category-card p{
+    text-align: center;
+    font-size: 20x;
+    padding: 3px;
+    margin-top: 5px;
+    
+}
+.footer{
+    display: flex;
+    
+   
+    gap: 70px;
+    margin: 100px;
+   
+    
+    
+    
+}
+.footer-leftgroup{
+    
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+     
+}
+.footer-content{
+    display: flex;
+    flex-direction: column;    
+}
+.footer h3{    
+    margin-bottom: 30px;
+    font-size: 15px;
+}
+.footer-content a{    
+    font-size: 15px;
+    color: gray;    
+    text-decoration: none;
+    margin-top: 10px;
+}
+.app-icons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.app-icons img{
+   width: 130px;
+   height: auto;
+   margin: 10px 0;
+   cursor: pointer;
+}
+.social-icons{
+    display: flex;
+    flex-direction: row;   
+}
+.social-icons img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.footer-item{
+    display: flex;
+    align-items: center;
+}
+.footer-image {
+    width: 60px;
+    height: 50px;
+    margin-bottom: 10px;
+}
+.footer-caption{
+    font-size: 15px;
+    color: black;
+}
+
+
+
+
+
+@media screen and (max-width: 992px) {
+    .navbar {
+        flex-wrap: wrap;  
+        padding: 20px;   
+    }
+    .menu {
+        flex-wrap: wrap;  
+        justify-content: center;
+    }
+    .search input {
+        width: 100%;     
+        margin-top: 10px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 992px) {
+    .flatoff-container, .payday-container {
+        flex-direction: column;  
+        height: auto;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .flatoff-content, .flatoff-contents, .payday-content {
+        font-size: smaller; 
+        text-align: center;
+        margin: 10px 0;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
+    .category-grid-container {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+@media screen and (max-width: 992px) {
+    .category-grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+@media screen and (max-width: 768px) {
+    .category-grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media screen and (max-width: 576px) {
+    .category-grid-container {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .slider-container img {
+        height: 400px;
+    }
+}
+@media screen and (max-width: 768px) {
+    .slider-container img {
+        height: 300px;
+    }
+}
+@media screen and (max-width: 576px) {
+    .slider-container img {
+        height: 200px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 768px) {
+    .footer {
+        flex-direction: column;
+        margin: 20px;
+        gap: 30px;
+    }
+}
+
+
