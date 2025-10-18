@@ -22,10 +22,10 @@ This project helped me practice creating a real-world e-commerce frontend, focus
 2. Or use **Live Server** in VS Code for live preview
 
 ## Screenshots
-![Navbar](screenshots/navbar.png)
-![Crazy Deals](screenshots/crazydeals.png)
-![Shop by Category](screenshots/shopbycategory.png)
-![Footer](screenshots/footer.png)
+![Navbar](screenshots/navbar.img.png)
+![Crazy Deals](screenshots/crazydeals.img.png)
+![Shop by Category](screenshots/shopbycategory.img.png)
+![Footer](screenshots/footer.img.png)
 
 
 
